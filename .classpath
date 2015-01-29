@@ -63,10 +63,5 @@
 	<classpathentry kind="lib" path="/home/leonid/Public/libs/xalan-2.7.1.jar"/>
 	<classpathentry kind="lib" path="/home/leonid/Public/libs/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="/home/leonid/Public/libs/xml-apis-1.4.01.jar"/>
-	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

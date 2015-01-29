@@ -37,16 +37,16 @@ public class NewGalaxyWideRegister {
 	public void test5Register() throws Exception {
 
 		String sponsor_login_sample = new String();
-		sponsor_login_sample = "7utestlged";
+		sponsor_login_sample = "testsponsor";
 
 		String current_user_sample = new String();
-		current_user_sample = "u7utestlged";
+		current_user_sample = "utestsponsor";
 
 		String user_name = new String();
 		user_name = "usernameAuto";
 
 		int i = 1;
-		int n = 4;
+		int n = 3;
 
 		// **************************************
 		while (i < n) {
@@ -116,7 +116,7 @@ public class NewGalaxyWideRegister {
 					By.cssSelector("[href='/office/default/paymenttype/activity/3']"))
 					.click();
 			*/
-			driver.findElements(By.cssSelector(".btn.btn-green")).get(0).click(); //профи за 750
+			driver.findElements(By.cssSelector(".btn.btn-green")).get(1).click(); //профи за 750
 			driver.findElements(By.name("yt0")).get(1).click();
 			driver.findElement(By.cssSelector("div.jq-selectbox__trigger")).click();
 			//Thread.sleep(500);

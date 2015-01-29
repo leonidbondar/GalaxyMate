@@ -41,7 +41,7 @@ public class NewGalaxyMonouserRegister {
 		sponsor_login_sample = "admin";
 		
 		String current_user_sample = new String();
-	    current_user_sample = "testlide";
+	    current_user_sample = "testlowedtope";
 	    
 	    String user_name = new String();
 	    user_name = "usernameAuto";
@@ -108,11 +108,11 @@ public class NewGalaxyMonouserRegister {
 			driver.findElement(By.id("Profile_form_agree")).click();
 			driver.findElement(By.name("btn_register")).click();
 			/*
-			driver.findElement(
+			driver.findElhttps://github.com/leonidbondar/GalaxyMate/blob/master/src/topbonus/NewGalaxyBinarRegister.javaement(
 					By.cssSelector("[href='/office/default/paymenttype/activity/3']"))
 					.click();
 			*/
-			driver.findElements(By.cssSelector(".btn.btn-green")).get(3).click(); //профи за 750
+			driver.findElements(By.cssSelector(".btn.btn-green")).get(0).click(); //профи за 750
 			driver.findElements(By.name("yt0")).get(1).click();
 			driver.findElement(By.cssSelector("div.jq-selectbox__trigger")).click();
 			//Thread.sleep(500);

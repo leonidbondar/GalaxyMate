@@ -22,7 +22,7 @@ public class NewGalaxyTrinarRegister {
 	private StringBuffer verificationErrors = new StringBuffer();
 	public ArrayList<mas_sponsor> mas = new ArrayList<mas_sponsor>();
 	private int count = 0;
-	private String username = "testsue";
+	private String username = "testlowedtope";
 
 	@Before
 	public void setUp() throws Exception {
@@ -31,7 +31,7 @@ public class NewGalaxyTrinarRegister {
 		// profile.setPreference("flash.enabled", false);
 		// driver = new FirefoxDriver(profile);
 		driver = new FirefoxDriver();
-		baseUrl = "test3.kovalenko.d.ukrtech.info";
+		baseUrl = "test1.kovalenko.d.ukrtech.info";
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().deleteAllCookies();
 	}
@@ -60,7 +60,7 @@ public class NewGalaxyTrinarRegister {
 		for (int i = 1; i <= 363; i++) {
 			m = new mas_sponsor();
 			// m.num_sp = "poldestr" + ddd + i + 800;
-			m.num_sp = "under" + username + i + 800;
+			m.num_sp = "underq" + username + i + 800;
 			m.count = 0;
 			m.has_sponsor = false;
 			mas.add(m);

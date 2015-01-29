@@ -22,7 +22,7 @@ public class NewGalaxyBinarRegister {
 	private StringBuffer verificationErrors = new StringBuffer();
 	public ArrayList<mas_sponsor> mas = new ArrayList<mas_sponsor>();
 	private int count = 0;
-	private String username = "testlide";
+	private String username = "testlowedtope";
 	
 	@Before
 	public void setUp() throws Exception {
@@ -60,7 +60,7 @@ public class NewGalaxyBinarRegister {
 		for (int i = 1; i <= 14; i++) {
 			m = new mas_sponsor();
 			// m.num_sp = "poldestr" + ddd + i + 800;
-			m.num_sp = "under5" + username + i + 800;
+			m.num_sp = "u3" + username + i + 800;
 			m.count = 0;
 			m.has_sponsor = false;
 			mas.add(m);
